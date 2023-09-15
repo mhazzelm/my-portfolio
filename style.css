@@ -1,0 +1,28 @@
+.container {
+    background-image: url("bg.jpg");
+    background-size: cover;
+    padding: 20px;
+  }
+  table,
+  th,
+  td {
+    width: 50%;
+    margin: 0 auto;
+    border: 2px solid black;
+    padding: 20px;
+  }
+  th,
+  td {
+    background-color: #99ccff;
+    border-style: dotted;
+  }
+  table td {
+    text-align: center;
+  }
+  img {
+    width: 120px;
+    height: 120px;
+  }
+  .section {
+    text-align: justify;
+  }
