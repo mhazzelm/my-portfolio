@@ -1,0 +1,85 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background: rgb(59,104,185);
+    background: linear-gradient(90deg, rgba(59,104,185,1) 0%, rgba(146,132,170,1) 43%, rgba(128,115,146,1) 48%, rgba(36,28,28,1) 73%);
+    display: grid;
+    place-items: center;
+  }
+
+  /* header h1 */
+  header .element {
+    text-shadow: 3px 3px 3px #2fe1d6;
+    color: #393939;
+  }
+
+  .element {
+    --flow-space: 2rem;
+    font-size: 5em;
+    font-weight: 900;
+    line-height: 1.1;
+    max-width: 40ch;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Style for the X button */
+  header .close-button {
+  position: absolute;
+  top: 20px; 
+  right: 20px;
+  font-size: 24px;
+  text-decoration: none;
+  color: #333;
+  background-color: #fff;
+  padding: 6px 12px;
+  border-radius: 50%; 
+  border: 1px solid #333;
+}
+
+header .close-button:hover {
+  color: white;
+  background-color: black;
+}
+
+.content {
+    float: left;
+    width: 50%;
+    padding: 20px;
+    margin-top: 40px;
+  }
+  
+  .slideshow-container {
+    float: right;
+    width: 50%;
+    max-width: 300px;
+  }
+
+  p {
+    text-align: justify;
+    font-family: cursive;
+    font-size: 20;
+    margin-left: 10px;
+  }
+
+  .contact-icons {
+    text-align: center; /* Center horizontally within the .content div */
+    margin-top: 20px; /* Add spacing between paragraphs and icons */
+    display: flex;
+    justify-content: center; /* Center icons horizontally within .contact-icons */
+  }
+  
+  /* Style individual icon links */
+  .contact-icons a {
+    margin: 0 10px; /* Add spacing between icons */
+    font-size: 24px; /* Adjust icon size as needed */
+    color: #333; /* Adjust icon color as needed */
+    text-decoration: none;
+  }
+  
+  /* Style the icons (optional) */
+  .contact-icons i {
+    margin-right: 5px; /* Add spacing between the icon and text */
+  }

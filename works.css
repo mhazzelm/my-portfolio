@@ -1,0 +1,90 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background: rgb(59,104,185);
+    background: linear-gradient(90deg, rgba(59,104,185,1) 0%, rgba(146,132,170,1) 43%, rgba(128,115,146,1) 48%, rgba(36,28,28,1) 73%);
+    display: grid;
+    place-items: center;
+  }
+
+  /* header h1 */
+  header .element {
+    text-shadow: 3px 3px 3px #2fe1d6;
+    color: #393939;
+  }
+
+  .element {
+    --flow-space: 2rem;
+    font-size: 5em;
+    font-weight: 900;
+    line-height: 1.1;
+    max-width: 40ch;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Style for the X button */
+  header .close-button {
+  position: absolute;
+  top: 20px; 
+  right: 20px;
+  font-size: 24px;
+  text-decoration: none;
+  color: #333;
+  background-color: #fff;
+  padding: 6px 12px;
+  border-radius: 50%; 
+  border: 1px solid #333;
+}
+
+header .close-button:hover {
+  color: white;
+  background-color: black;
+}
+
+/* Container wrapper */
+.container-wrapper {
+  display: flex;
+  flex-direction: row; 
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.row {
+  width: 400px; 
+  height: 480px;
+  margin: 15px;
+  font-size: 2em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+  background-color: white;
+  transition-property: box-shadow, transform;
+  transition-duration: 350ms;
+  transition-timing-function: ease;
+  box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.24);
+}
+
+.row:is(:hover, :focus) {
+  box-shadow: 0px 8px 10px 1px rgba(0, 0, 0, 0.2);
+  transform: translateY(-8px);
+}
+
+.left {
+  background-color: #c0d6df;
+  font-family: 'Croissant One', sans-serif;
+}
+
+.center {
+  background-color: #4f6d7a;
+  font-family: 'Croissant One', sans-serif;
+}
+
+.right {
+  background-color: #c0d6df;
+  font-family: 'Croissant One', sans-serif;
+}
