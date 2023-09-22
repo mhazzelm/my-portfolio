@@ -65,21 +65,20 @@ header .close-button:hover {
   }
 
   .contact-icons {
-    text-align: center; /* Center horizontally within the .content div */
-    margin-top: 20px; /* Add spacing between paragraphs and icons */
+    text-align: center;
+    margin-top: 20px;
     display: flex;
-    justify-content: center; /* Center icons horizontally within .contact-icons */
+    justify-content: center;
   }
   
   /* Style individual icon links */
   .contact-icons a {
-    margin: 0 10px; /* Add spacing between icons */
-    font-size: 24px; /* Adjust icon size as needed */
-    color: #333; /* Adjust icon color as needed */
+    margin: 0 10px;
+    font-size: 24px;
+    color: #333;
     text-decoration: none;
   }
   
-  /* Style the icons (optional) */
   .contact-icons i {
-    margin-right: 5px; /* Add spacing between the icon and text */
+    margin-right: 5px;
   }
